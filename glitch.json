@@ -1,0 +1,14 @@
+{
+  "install": "npm install",
+  "start": "node server.js",
+  "watch": {
+    "ignore": [
+      "public"
+    ],
+    "install": {
+      "include": [
+        "package.json"
+      ]
+    }
+  }
+}
