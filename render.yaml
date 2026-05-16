@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: as3g-downloader
+    env: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 3001

@@ -1,0 +1,7 @@
+node_modules
+backend/*.exe
+frontend/node_modules
+public/node_modules
+.git
+Dockerfile
+backend/--Frag*

@@ -1,0 +1,5 @@
+node_modules
+backend/*.exe
+backend/--Frag*
+.vercel
+.env
